@@ -7,6 +7,7 @@ def get_vowels(word):
                 result="Vowels: " + letters
             else:
                 result=result + "," + letters
-    print(result)
+    result = result
+    print(result.lower())
 
-get_vowels("Umuzi")
+get_vowels("Umzi")
