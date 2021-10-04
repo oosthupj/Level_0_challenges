@@ -1,13 +1,23 @@
 def get_vowels(word):
     vowels = "aeiouAEIOU"
-    result ="Vowels: None"
+    number_of_vowels = 0
+   
     for letters in word:
         if letters in vowels:
-            if result =="Vowels: None":
-                result="Vowels: " + letters
+            if number_of_vowels == 0:
+                result=letters
+                number_of_vowels +=1
             else:
-                result=result + "," + letters
-    result = result
-    print(result.lower())
+                if letters.lower() not in result.lower():
+                    result=result + ", " + letters
 
-get_vowels("Umzi")
+    if number_of_vowels == 0:
+        print("Vowels: None")
+    else:
+            print("Vowels: "+ result.lower())
+
+'''
+This is just to test the function
+'''
+get_vowels("Umuzi")
+get_vowels("JacoO")
