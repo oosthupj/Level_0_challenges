@@ -1,4 +1,4 @@
-def number_to_hours_minutes(number):
+def convert_number_into_hours_minutes(number):
     hour = number/60
     hour = int(hour)
     minutes = number%60 
@@ -15,7 +15,7 @@ def number_to_hours_minutes(number):
 """ 
 This is just to test the function
 """
-print(number_to_hours_minutes(71))
-print(number_to_hours_minutes(133))
-print(number_to_hours_minutes(61))
+print(convert_number_into_hours_minutes(71))
+print(convert_number_into_hours_minutes(133))
+print(convert_number_into_hours_minutes(61))
 
