@@ -17,13 +17,15 @@ def get_maximum(a,b,c):
         b_is_bigger=False
 
     if a_is_bigger:
-        print(a)
+        return(a)
     elif b_is_bigger:
-        print(b)
+        return(b)
     elif c_is_bigger:
-        print(c)
+        return(c)
  
-
-get_maximum(1,2,9)
-get_maximum(1,1,0)
-get_maximum(-1,-1,-2)
+'''
+This is just to test the function
+'''
+print(get_maximum(1,2,9))
+print(get_maximum(1,1,0))
+print(get_maximum(-1,-1,-2))
