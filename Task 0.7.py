@@ -1,11 +1,15 @@
 def celcius_to_fahrenheit(celcius):
-    f=(celcius*1.8) + 32
-    print(f)
+    fahrenheit=(celcius*1.8) + 32
+    return(fahrenheit)
 
 celcius_to_fahrenheit(40)
 
 def fahrenheit_to_celcius(fahrenheit):
-    c=(fahrenheit - 32)/1.8
-    print(c)
+    celcius=(fahrenheit - 32)/1.8
+    return(celcius)
 
-fahrenheit_to_celcius(104)
+'''
+This is just to test the funcions
+'''
+print(fahrenheit_to_celcius(104))
+print(celcius_to_fahrenheit(-32))
