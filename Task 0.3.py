@@ -1,4 +1,7 @@
 def hello(name):
-    print("Hello " + name + "!")
+    print(f"Hello {name} !")
 
+'''
+This is just to test the function
+'''
 hello("Tshepo")
