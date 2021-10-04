@@ -23,9 +23,10 @@ def get_maximum(a,b,c):
     elif c_is_bigger:
         return(c)
  
-'''
-This is just to test the function
-'''
+
+""" This is just to test the function
+"""
+
 print(get_maximum(1,2,9))
 print(get_maximum(1,1,0))
 print(get_maximum(-1,-1,-2))

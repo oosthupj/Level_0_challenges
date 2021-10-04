@@ -8,9 +8,10 @@ def common_characters(string1, string2):
                 result=result + "," + letters
     return result
 
-'''
-This is just to test the function
-'''
+
+""" This is just to test the function
+"""
+
 print(common_characters('house','computers'))
 print(common_characters('Ear','Dear'))
 print(common_characters('EAR','DEAR'))

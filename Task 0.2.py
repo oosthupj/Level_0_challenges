@@ -1,4 +1,4 @@
-#BODMASS = Order to solve mathematical problems - Brackets,Orders,Division,Multiplication,Addition,Subtraction
+# BODMASS = Order to solve mathematical problems - Brackets,Orders,Division,Multiplication,Addition,Subtraction
 x = 1 + 1 * 2
 print(x)
 y = (1 + 1) * 2

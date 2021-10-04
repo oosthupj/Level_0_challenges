@@ -14,10 +14,10 @@ def get_vowels(word):
     if number_of_vowels == 0:
         print("Vowels: None")
     else:
-            print("Vowels: "+ result.lower())
+        print("Vowels: "+ result.lower())
 
-'''
-This is just to test the function
-'''
+""" This is just to test the function
+"""
+
 get_vowels("Umuzi")
 get_vowels("JacoO")

@@ -12,8 +12,7 @@ def convert_number_into_hours_minutes(number):
 
     return(str(hour) + string_hour +", " + str(minutes) + string_minute)
 
-""" 
-This is just to test the function
+""" This is just to test the function
 """
 print(convert_number_into_hours_minutes(71))
 print(convert_number_into_hours_minutes(133))
