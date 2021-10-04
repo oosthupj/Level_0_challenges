@@ -1,18 +1,21 @@
-def number_to_hrs_mns(number):
+def number_to_hours_minutes(number):
     hour = number/60
     hour = int(hour)
     minutes = number%60 
-    strhr = " hour"
-    strmin = " minute"
+    string_hour = " hour"
+    string_minute = " minute"
     
     if hour>1:
-        strhr = " hours"
+        string_hour = " hours"
     if minutes>1:
-        strmin = " minutes"
+        string_minute = " minutes"
 
-    print(str(hour) + strhr +", " + str(minutes) + strmin)
+    return(str(hour) + string_hour +", " + str(minutes) + string_minute)
 
-number_to_hrs_mns(71)
-number_to_hrs_mns(133)
-number_to_hrs_mns(61)
+""" 
+This is just to test the function
+"""
+print(number_to_hours_minutes(71))
+print(number_to_hours_minutes(133))
+print(number_to_hours_minutes(61))
 
